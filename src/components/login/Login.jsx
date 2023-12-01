@@ -15,8 +15,8 @@ export default function Login() {
     const history = useHistory();
 
     const initialValues = {
-        email: "test@user.com",
-        password: "test123"
+        email: "first@user.com",
+        password: "first123"
     };
 
     const validationSchema = Yup.object({
